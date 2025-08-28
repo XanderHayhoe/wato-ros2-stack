@@ -1,0 +1,39 @@
+-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[ 75%] Built target talker
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/lib/cpp_wkspc/talker
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/lib/cpp_wkspc/listener
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/package_run_dependencies/cpp_wkspc
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/parent_prefix_path/cpp_wkspc
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/ament_prefix_path.sh
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/path.sh
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/path.dsv
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.bash
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.sh
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.zsh
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.dsv
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/package.dsv
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/packages/cpp_wkspc
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/cmake/cpp_wkspcConfig.cmake
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/cmake/cpp_wkspcConfig-version.cmake
+-- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/package.xml

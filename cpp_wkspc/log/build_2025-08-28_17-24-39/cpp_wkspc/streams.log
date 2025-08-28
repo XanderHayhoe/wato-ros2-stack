@@ -1,0 +1,45 @@
+[0.008s] Invoking command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/xander/dev/ros2-demo/cpp_wkspc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc
+[0.058s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.229s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[0.458s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.596s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.599s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[8.239s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.346s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[8.417s] -- Configuring done
+[8.428s] -- Generating done
+[8.431s] -- Build files have been written to: /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc
+[8.438s] Invoked command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/xander/dev/ros2-demo/cpp_wkspc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc
+[8.439s] Invoking command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc -- -j20 -l20
+[8.465s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[8.465s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[11.377s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[11.616s] [ 75%] Built target talker
+[12.743s] [100%] [32m[1mLinking CXX executable listener[0m
+[13.045s] [100%] Built target listener
+[13.051s] Invoked command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc -- -j20 -l20
+[13.057s] Invoking command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc
+[13.060s] -- Install configuration: ""
+[13.061s] -- Execute custom install script
+[13.061s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/lib/cpp_wkspc/talker
+[13.065s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/lib/cpp_wkspc/listener
+[13.071s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/package_run_dependencies/cpp_wkspc
+[13.075s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/parent_prefix_path/cpp_wkspc
+[13.080s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/ament_prefix_path.sh
+[13.084s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/ament_prefix_path.dsv
+[13.088s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/path.sh
+[13.093s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/environment/path.dsv
+[13.097s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.bash
+[13.101s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.sh
+[13.105s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.zsh
+[13.109s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/local_setup.dsv
+[13.114s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/package.dsv
+[13.119s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/ament_index/resource_index/packages/cpp_wkspc
+[13.123s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/cmake/cpp_wkspcConfig.cmake
+[13.127s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/cmake/cpp_wkspcConfig-version.cmake
+[13.131s] -- Symlinking: /home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc/share/cpp_wkspc/package.xml
+[13.137s] Invoked command in '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc

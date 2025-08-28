@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (cpp_wkspc) JobQueued: {'identifier': 'cpp_wkspc', 'dependencies': OrderedDict()}
+[0.000232] (cpp_wkspc) JobStarted: {'identifier': 'cpp_wkspc'}
+[0.006651] (cpp_wkspc) JobProgress: {'identifier': 'cpp_wkspc', 'progress': 'cmake'}
+[0.007324] (cpp_wkspc) Command: {'cmd': ['/usr/bin/cmake', '/home/xander/dev/ros2-demo/cpp_wkspc', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/xander/dev/ros2-demo/cpp_wkspc/install/cpp_wkspc'], 'cwd': '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'xander'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/xander'), ('OLDPWD', '/home/xander/dev/ros2-demo/cpp_wkspc/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'xander'), ('NAME', 'Ubuntu'), ('WSL_INTEROP', '/run/WSL/5059_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('PATH', '/home/xander/.local/bin:/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/xande/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Python312/Scripts/:/mnt/c/Python312/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility:/mnt/c/Program Files/Vagrant/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/FLIR Systems/Spinnaker/bin64/vs2015:/mnt/c/Program Files/FLIR Systems/Spinnaker/bin/vs2015:/mnt/c/Users/xande/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/xande/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/CLion 2024.1.1/bin:/mnt/c/Users/xande/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xande/ffmpeg/ffmpeg-7.0.2-full_build/bin:/mnt/c/msys64/mingw64/bin:/mnt/c/msys64/usr/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/nodejs/:/snap/bin:/mnt/c/Users/xande/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/xande/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('PWD', '/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099550] (-) TimerEvent: {}
+[0.199817] (-) TimerEvent: {}
+[0.217258] (cpp_wkspc) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299897] (-) TimerEvent: {}
+[0.400172] (-) TimerEvent: {}
+[0.500416] (-) TimerEvent: {}
+[0.600645] (-) TimerEvent: {}
+[0.700909] (-) TimerEvent: {}
+[0.801140] (-) TimerEvent: {}
+[0.870066] (cpp_wkspc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.901218] (-) TimerEvent: {}
+[1.001497] (-) TimerEvent: {}
+[1.101705] (-) TimerEvent: {}
+[1.201973] (-) TimerEvent: {}
+[1.302221] (-) TimerEvent: {}
+[1.343149] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.402353] (-) TimerEvent: {}
+[1.479324] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.482720] (cpp_wkspc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.484056] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.484716] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.486848] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.502446] (-) TimerEvent: {}
+[1.602690] (-) TimerEvent: {}
+[1.647394] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.651301] (cpp_wkspc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.651497] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.651649] (cpp_wkspc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.657979] (cpp_wkspc) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.702761] (-) TimerEvent: {}
+[1.747597] (cpp_wkspc) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.788100] (cpp_wkspc) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.802856] (-) TimerEvent: {}
+[1.813272] (cpp_wkspc) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[1.902959] (-) TimerEvent: {}
+[2.003207] (-) TimerEvent: {}
+[2.044867] (cpp_wkspc) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.054233] (cpp_wkspc) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.069822] (cpp_wkspc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.085653] (cpp_wkspc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.103290] (-) TimerEvent: {}
+[2.193073] (cpp_wkspc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.195409] (cpp_wkspc) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.203433] (-) TimerEvent: {}
+[2.303653] (-) TimerEvent: {}
+[2.403907] (-) TimerEvent: {}
+[2.504272] (-) TimerEvent: {}
+[2.604517] (-) TimerEvent: {}
+[2.704767] (-) TimerEvent: {}
+[2.805027] (-) TimerEvent: {}
+[2.905297] (-) TimerEvent: {}
+[3.005566] (-) TimerEvent: {}
+[3.105866] (-) TimerEvent: {}
+[3.206111] (-) TimerEvent: {}
+[3.306329] (-) TimerEvent: {}
+[3.406560] (-) TimerEvent: {}
+[3.506885] (-) TimerEvent: {}
+[3.607195] (-) TimerEvent: {}
+[3.707445] (-) TimerEvent: {}
+[3.807723] (-) TimerEvent: {}
+[3.908027] (-) TimerEvent: {}
+[4.008274] (-) TimerEvent: {}
+[4.108537] (-) TimerEvent: {}
+[4.208895] (-) TimerEvent: {}
+[4.257110] (cpp_wkspc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.309215] (-) TimerEvent: {}
+[4.409524] (-) TimerEvent: {}
+[4.509834] (-) TimerEvent: {}
+[4.610144] (-) TimerEvent: {}
+[4.710432] (-) TimerEvent: {}
+[4.810692] (-) TimerEvent: {}
+[4.910973] (-) TimerEvent: {}
+[5.011287] (-) TimerEvent: {}
+[5.111544] (-) TimerEvent: {}
+[5.211912] (-) TimerEvent: {}
+[5.312228] (-) TimerEvent: {}
+[5.412506] (-) TimerEvent: {}
+[5.512785] (-) TimerEvent: {}
+[5.613022] (-) TimerEvent: {}
+[5.713220] (-) TimerEvent: {}
+[5.813448] (-) TimerEvent: {}
+[5.913681] (-) TimerEvent: {}
+[6.013937] (-) TimerEvent: {}
+[6.114152] (-) TimerEvent: {}
+[6.214402] (-) TimerEvent: {}
+[6.314645] (-) TimerEvent: {}
+[6.329425] (cpp_wkspc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[6.414757] (-) TimerEvent: {}
+[6.515007] (-) TimerEvent: {}
+[6.615249] (-) TimerEvent: {}
+[6.715497] (-) TimerEvent: {}
+[6.815768] (-) TimerEvent: {}
+[6.916035] (-) TimerEvent: {}
+[7.016253] (-) TimerEvent: {}
+[7.116469] (-) TimerEvent: {}
+[7.216710] (-) TimerEvent: {}
+[7.317014] (-) TimerEvent: {}
+[7.417365] (-) TimerEvent: {}
+[7.517619] (-) TimerEvent: {}
+[7.617860] (-) TimerEvent: {}
+[7.718091] (-) TimerEvent: {}
+[7.818344] (-) TimerEvent: {}
+[7.918539] (-) TimerEvent: {}
+[8.018775] (-) TimerEvent: {}
+[8.119096] (-) TimerEvent: {}
+[8.219362] (-) TimerEvent: {}
+[8.319610] (-) TimerEvent: {}
+[8.419898] (-) TimerEvent: {}
+[8.520151] (-) TimerEvent: {}
+[8.620528] (-) TimerEvent: {}
+[8.720782] (-) TimerEvent: {}
+[8.821036] (-) TimerEvent: {}
+[8.921271] (-) TimerEvent: {}
+[9.021494] (-) TimerEvent: {}
+[9.121710] (-) TimerEvent: {}
+[9.221939] (-) TimerEvent: {}
+[9.322183] (-) TimerEvent: {}
+[9.422445] (-) TimerEvent: {}
+[9.522689] (-) TimerEvent: {}
+[9.622918] (-) TimerEvent: {}
+[9.723160] (-) TimerEvent: {}
+[9.823417] (-) TimerEvent: {}
+[9.923714] (-) TimerEvent: {}
+[9.938930] (cpp_wkspc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.023815] (-) TimerEvent: {}
+[10.045555] (cpp_wkspc) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[10.099127] (cpp_wkspc) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[10.099318] (cpp_wkspc) StderrLine: {'line': b"  ament_package_xml() package name 'cpp_wkspc' in '/package.xml' does not\n"}
+[10.099380] (cpp_wkspc) StderrLine: {'line': b"  match current PROJECT_NAME 'cpp_wkspc'.  You must call project() with the\n"}
+[10.099408] (cpp_wkspc) StderrLine: {'line': b'  same package name before.\n'}
+[10.099431] (cpp_wkspc) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.099500] (cpp_wkspc) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[10.099573] (cpp_wkspc) StderrLine: {'line': b'  CMakeLists.txt:24 (ament_package)\n'}
+[10.099661] (cpp_wkspc) StderrLine: {'line': b'\n'}
+[10.099735] (cpp_wkspc) StderrLine: {'line': b'\x1b[0m\n'}
+[10.099859] (cpp_wkspc) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.099897] (cpp_wkspc) StdoutLine: {'line': b'See also "/home/xander/dev/ros2-demo/cpp_wkspc/build/cpp_wkspc/CMakeFiles/CMakeOutput.log".\n'}
+[10.105975] (cpp_wkspc) CommandEnded: {'returncode': 1}
+[10.121929] (cpp_wkspc) JobEnded: {'identifier': 'cpp_wkspc', 'rc': 1}
+[10.123979] (-) TimerEvent: {}
+[10.132494] (-) EventReactorShutdown: {}
